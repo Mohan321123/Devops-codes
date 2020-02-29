@@ -1,0 +1,9 @@
+---
+- name: install ntp wget
+  yum:
+    name:
+      - ntp
+      - wget
+    state: latest
+  notify:
+   - retsart ntp

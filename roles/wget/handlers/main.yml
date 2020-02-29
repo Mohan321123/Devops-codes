@@ -1,0 +1,3 @@
+---
+- name: retsart ntp
+  service: name=ntpd state=restarted 

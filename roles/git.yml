@@ -1,0 +1,5 @@
+---
+- name:Install git in local host
+  hosts: local host
+   role: git
+
